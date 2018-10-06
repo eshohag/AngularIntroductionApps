@@ -1,0 +1,17 @@
+<div style="text-align:center">
+    <h2>
+      Interpolation- {{ dataBind }}!
+    </h2>
+    <h4>
+      <form action="">
+        One Way Binding: <input type="text" name="FirstName" [value]="dataBind" ><br>
+        Two Way Binding: <input type="text" name="LastName" [value]="dataBind" [(ngModel)]="dataBind"><br>
+        ClickEvent Binding: <input type="submit" (click)="Submit(dataBind)" value="Submit">
+      </form>
+    </h4>
+  </div>
+
+  <div class="ngClass">
+      <div [ngClass]="{'colorRed': colorRedLogicalExpression}">Hello</div>
+      <div [ngClass]="{'colorWhite': colorWhiteLogicalExpression}">Background Color Black</div>
+    </div>

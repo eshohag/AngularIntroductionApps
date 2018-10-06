@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.min.css';
+
+.ngClass{
+  text-align: center;
+}
+
+.colorRed
+{
+  background-color: red;
+  color: aliceblue;
+  padding: 20px;
+}
+.colorWhite{
+  color: wheat;
+  background-color: black;
+  padding: 20px;
+}
+.carImageSize{
+  width: 350px;
+  height: 200px;
+  border: 2px solid red;
+}
